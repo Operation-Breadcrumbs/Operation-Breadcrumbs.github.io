@@ -3,10 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Fifty Birds</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="/js/script.js"></script>
 </head>
+<!--<body onload="sizeContainer()">-->
 <body>
-
-<iframe src="https://store.steampowered.com/widget/2844620/" frameborder="0" width="646" height="190"></iframe>
-
+<div class="content">
+    <div class="container" id="container">
+        <div class="menu" id="menu">
+            <a href="#">Home</a>
+            <a href="#">Team</a>
+            <a href="#">Press kit</a>
+            <a href="#">Contact</a>
+            <a href="javascript:void(0);" title="Menu" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <div class="steam-widget">
+            <iframe src="https://store.steampowered.com/widget/2844620/" frameborder="0" width="646" height="190"></iframe>
+        </div>
+    </div>
+</div>
 </body>
 </html>
