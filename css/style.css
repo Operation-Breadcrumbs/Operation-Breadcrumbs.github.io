@@ -13,7 +13,7 @@ body{
 }
 .menu {
     overflow: hidden;
-    background-color: #363841;
+    background-color: #6d933c;
     text-align: center;
     z-index: 6;
 }
@@ -35,8 +35,8 @@ body{
 }
 
 .menu a:hover {
-    background-color: #575b69;
-    color: #bdfe0e;
+    background-color: #8eb061;
+    color: #6d933c;
 }
 
 .menu .icon {
@@ -97,7 +97,7 @@ section img{
 }
 
 .container{
-    background-color: darkblue;
+    background-color: #78a142;
     width: 100%;
     height: 100%;
 }
