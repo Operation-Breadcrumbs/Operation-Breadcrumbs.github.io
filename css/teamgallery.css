@@ -6,6 +6,12 @@
     color: black;
 }
 
+/*Centers cards*/
+.team .row{
+    display: flex;
+    justify-content: center;
+}
+
 /* Three columns side by side */
 .team .column {
     float: left;
