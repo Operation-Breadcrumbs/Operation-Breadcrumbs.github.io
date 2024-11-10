@@ -134,6 +134,12 @@ body{
 /*#endregion Structure*/
 
 /*#region Container Content*/
+
+.logo{
+    width: 100%;
+    height: auto;
+}
+
 .trailer, .steam-widget{
     position: relative;
     overflow: hidden;
@@ -144,7 +150,7 @@ body{
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
 .steam-widget{
-    padding-top: 66.66%; /* 3:2 Aspect Ratio */
+    /*padding-top: 56.25%; /* 3:2 Aspect Ratio */
 }
 
 .trailer iframe,.steam-widget iframe{
