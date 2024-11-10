@@ -26,6 +26,10 @@
         width: 100%;
         display: block;
     }
+
+    .team .row{
+        display: block;
+    }
 }
 
 /* Add some shadows to create a card effect */
