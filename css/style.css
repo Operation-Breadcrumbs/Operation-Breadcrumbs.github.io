@@ -165,20 +165,20 @@ body{
 }
 
 /*#region Gif Gallery*/
-.row {
+.gif-gallery .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
 }
 
 /* Create two equal columns that sits next to each other */
-.column {
+.gif-gallery .column {
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
 }
 
-.column img {
+.gif-gallery .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
@@ -186,7 +186,7 @@ body{
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .column {
+    .gif-gallery .column {
         flex: 100%;
         max-width: 100%;
     }
