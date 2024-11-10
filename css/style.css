@@ -60,6 +60,9 @@ body{
 
 .section{
     margin-top:2%;
+    margin-bottom:2%;
+    width: 100%;  /* Set width to 100% of the viewport width */
+    height: 100%;
 }
 
 .footer{
@@ -131,9 +134,28 @@ body{
 /*#endregion Structure*/
 
 /*#region Container Content*/
+.trailer, .steam-widget{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.trailer{
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
 .steam-widget{
+    padding-top: 66.66%; /* 3:2 Aspect Ratio */
+}
+
+.trailer iframe,.steam-widget iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
     width: 100%;
     height: 100%;
-    margin: 1%;
+    border: none; /* Remove default border */
 }
+
 /*#endregion Container Content*/
