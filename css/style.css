@@ -21,9 +21,6 @@
 
 h1, h2, h3, h4, p, a{
     font-family: "BalsamiqSans", serif;
-}
-
-p{
     color: white;
 }
 /*#endregion Fonts*/
@@ -58,12 +55,16 @@ body{
 
 .container-contents{
     margin: 5%;
+    text-align: center;
+}
+
+.section{
+    margin-top:2%;
 }
 
 .footer{
     background-color: #6d933c;
 }
-
 /*#region Menu*/
 .menu {
     font-family: "BalsamiqSans", serif;
