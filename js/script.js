@@ -1,4 +1,4 @@
-/*function sizeContainer(){
+function sizeContainer(){
     console.log("Size 1")
     var container = document.getElementById('container');
     console.log("Size!");
@@ -18,7 +18,7 @@
         container.style.float="center";
     }
 }
-*/
+
 
 function myFunction() {
     var x = document.getElementById("menu");
