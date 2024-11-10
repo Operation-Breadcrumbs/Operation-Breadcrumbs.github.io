@@ -1,0 +1,39 @@
+.footer{
+    background-color: #6d933c;
+    color: #a7a7a7;
+    font-size: 16px;
+    text-align: center;
+}
+
+.footer .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.footer .button-row{
+    display: flex;
+    justify-content: center;
+}
+
+/* Three columns side by side */
+.footer .column {
+    float: left;
+    width: 33.33%;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .footer .column {
+        width: 100%;
+        display: block;
+    }
+
+    .footer .row{
+        display: block;
+    }
+    .footer .button-row{
+        margin:2%;
+    }
+}
