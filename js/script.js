@@ -1,26 +1,36 @@
-/*function sizeContainer(){
-    console.log("Size 1")
+//Adjusts container size dynamically
+function sizeContainer(){
     var container = document.getElementById('container');
-    console.log("Size!");
     if(window.innerWidth < 1040){
-        container.style.width ='100%';
-        container.style.height='100%';
-        container.style.marginTop='0%';
-        container.style.marginBottom='0%';
-        container.style.left='0';
-        container.style.top='0';
-        container.style.right='0';
-        container.style.float="center";
+        fillWindow(container);
     }else{
-        container.style.width ='90%';
-        container.style.marginTop='5%';
-        container.style.marginBottom='5%';
-        container.style.float="center";
+        shrinkContainer(container);
     }
 }
-*/
 
-function myFunction() {
+//Resizes container to fill window
+function fillWindow(container){
+    container.style.width ='100%';
+    container.style.height='100%';
+    container.style.marginTop='0%';
+    container.style.marginBottom='0%';
+    container.style.left='0';
+    container.style.top='0';
+    container.style.right='0';
+    container.style.float="center";
+}
+
+//Reduces container size and centers it
+function shrinkContainer(container){
+    container.style.width ='90%';
+    container.style.marginTop='5%';
+    container.style.marginBottom='5%';
+    container.style.float="center";
+}
+
+
+//Makes menu responsive to screen size
+function menuResize() {
     var x = document.getElementById("menu");
     if (x.className === "menu") {
         x.className += " responsive";
