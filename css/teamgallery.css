@@ -49,12 +49,7 @@
 /* Some left and right padding inside the container */
 .card .container {
     background: transparent;
-    padding: 2%;
-    height: 100%;
-}
 
-.card .profilePic{
-    background: transparent;
 }
 
 .card img{
