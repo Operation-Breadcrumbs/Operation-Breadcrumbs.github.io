@@ -46,19 +46,13 @@
     background: gainsboro;
 }
 
-/* Some left and right padding inside the container */
-.card .container {
-    background: transparent;
-
-}
-
 .card img{
     width: 96%;
     margin: 1%;
 }
 
 /* Clear floats */
-.card .container::after, .row::after {
+.row::after {
     content: "";
     clear: both;
     display: table;
