@@ -82,6 +82,7 @@
     cursor: pointer;
     top: 50%;
     width: auto;
+    padding: 2%;
     background: #6d933c;
     color: white;
     font-weight: bold;
@@ -98,7 +99,7 @@
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
+.prev:hover, .next:hover {
+    background-color: #8eb061;
+    color: #6d933c;
 }
