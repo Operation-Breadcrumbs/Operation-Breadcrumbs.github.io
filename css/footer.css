@@ -1,8 +1,8 @@
 .footer{
     background-color: #6d933c;
     color: #a7a7a7;
-    font-size: 16px;
     text-align: center;
+    height: 100%;
 }
 
 .footer .row{
