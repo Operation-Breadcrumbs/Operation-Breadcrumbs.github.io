@@ -6,10 +6,12 @@
 	<link rel="icon" type="image/x-icon" href="/img/favicon.png">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/menu.css">
-	<link rel="stylesheet" type="text/css" href="css/teamgallery.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	<link rel="stylesheet" type="text/css" href="css/teamgallery.css">
 	<script src="https://kit.fontawesome.com/27e4eb1165.js" crossorigin="anonymous"></script>
     <script src="/js/script.js"></script>
+	<script src="/js/slideshow.js"></script>
 </head>
 <body onload="sizeContainer()" onresize="sizeContainer()">
 <div class="content">
@@ -65,7 +67,25 @@
 		    </div>
 		    <!--Image Carousel-->
 		    <div class="section">
-		
+			    <div class="slideshow-container">
+				    <div class="mySlides fade">
+					    <img src="img/Logo_Light.png">
+				
+				    </div>
+				    <div class="mySlides fade">
+					
+					    <img src="img/Logo_Dark.png" >
+				
+				    </div>
+				    <div class="slideshow-buttons">
+					    <a class="prev" onclick="prevSlide()"><</a>
+					    <div class="dots">
+						    <span class="dot"></span>
+						    <span class="dot"></span>
+					    </div>
+					    <a class="next" onclick="showSlides()">></a>
+				    </div>
+			    </div>
 		    </div>
 		    <!--Team Gallery-->
 		    <div class="section" id="Team">
