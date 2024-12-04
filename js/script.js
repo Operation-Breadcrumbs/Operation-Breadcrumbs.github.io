@@ -22,10 +22,8 @@ function fillWindow(container){
 
 //Reduces container size and centers it
 function shrinkContainer(container){
-    container.style.width ='90%';
-    container.style.marginTop='5%';
-    container.style.marginBottom='5%';
-    container.style.float="center";
+    container.style.maxWidth ='960px';
+    container.style.margin='5% auto 5%';
 }
 
 
