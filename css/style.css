@@ -77,6 +77,14 @@ body{
     height: 100%;
 }
 
+.person_icon{
+    transition: transform .2s;
+}
+
+.person_icon:hover{
+    transform: scale(1.1);
+}
+
 /*#endregion Structure*/
 
 /*#region Container Content*/
