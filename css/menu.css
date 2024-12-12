@@ -1,9 +1,10 @@
 .menu {
     font-family: "BalsamiqSans", serif;
     overflow: hidden;
-    background-color: #6d933c;
+    background-color: #C08A6A;
     text-align: center;
     z-index: 6;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .menu a {
@@ -22,8 +23,8 @@
 }
 
 .menu a:hover {
-    background-color: #8eb061;
-    color: #6d933c;
+    background-color: #EB9F72;
+    color: #ffffff;
 }
 
 .menu .icon {

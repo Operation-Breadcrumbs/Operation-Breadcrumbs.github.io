@@ -21,7 +21,7 @@
 
 h1, h2, h3, h4, p, a{
     font-family: "BalsamiqSans", serif;
-    color: white;
+    color: #1E2747;
 }
 /*#endregion Fonts*/
 
@@ -48,9 +48,10 @@ body{
 
 /*Allows for resizing*/
 .container{
-    background-color: #78a142;
+    background-color: #E6CFA4;
     max-width: 960px;
     margin: 5% auto 0;
+    border-radius: 30px;
 }
 
 @media screen and (max-width: 1040px) {
