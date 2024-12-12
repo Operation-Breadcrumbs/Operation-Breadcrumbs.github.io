@@ -1,7 +1,8 @@
 .footer{
-    background-color: #6d933c;
+    background-color: #C08A6A;
     color: #a7a7a7;
     text-align: center;
+    border-radius: 0px 0px 5px 5px;
 }
 
 .footer .row{
@@ -20,6 +21,10 @@
 .footer .column {
     float: left;
     width: 33.33%;
+}
+
+#footer_email{
+    margin-left:4%
 }
 
 /* Display the columns below each other instead of side by side on small screens */
