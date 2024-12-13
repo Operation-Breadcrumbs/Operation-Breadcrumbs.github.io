@@ -85,9 +85,18 @@ body{
 }
 
 .game-description{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
+}
+
+#Team{
+    padding-top:5%;
+}
+
+.meet-team{
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .section{
