@@ -19,7 +19,7 @@
     src: url("BalsamiqSans-Regular.ttf");
 }
 
-h1, h2, h3, h4, p, a{
+h1, h2, h3, h4, p, a, button{
     font-family: "BalsamiqSans", serif;
     color: #1E2747;
 }
@@ -149,6 +149,16 @@ body{
     }
     .steam-button{
         display: block;
+    }
+    button{
+        background-color: #C08A6A;
+        font-size:22px;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        width: 100%;
+        /*border-radius: 4px;*/
+        cursor: pointer;
     }
 }
 
