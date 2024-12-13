@@ -25,6 +25,10 @@ h1, h2, h3, h4, p, a{
 }
 /*#endregion Fonts*/
 
+p{
+    font-size:20px;
+}
+
 
 /*#region Structure*/
 *{
@@ -80,6 +84,21 @@ body{
     text-align: center;
 }
 
+.game-description{
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#Team{
+    padding-top:5%;
+}
+
+.meet-team{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .section{
     margin-top:2%;
     margin-bottom:2%;
@@ -102,6 +121,8 @@ body{
 .logo{
     width: 100%;
     height: auto;
+    padding-left: 3%;
+    padding-right: 3%
 }
 
 .trailer, .steam-widget{
