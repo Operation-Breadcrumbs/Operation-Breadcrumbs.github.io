@@ -37,6 +37,10 @@ p{
     box-sizing: border-box;
 }
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body{
     min-height: 100vh;
@@ -44,7 +48,6 @@ body{
     background-image: url('/img/bg_trees.png');
     background-size: cover;
     background-attachment: fixed;
-    
 }
 
 .content{
