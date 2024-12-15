@@ -89,8 +89,8 @@ body{
 }
 
 .game-description{
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 5%;
 }
 
@@ -145,6 +145,13 @@ body{
 
 .steam-button{
     display: none;
+}
+
+.gif-gallery{
+    padding: 3% 10%;
+    img{
+        padding: 3%;
+    }
 }
 
 @media screen and (max-width: 820px) {
