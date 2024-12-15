@@ -148,7 +148,7 @@ body{
 }
 
 .gif-gallery{
-    padding: 3% 10%;
+    padding: 3% 5%;
     img{
         padding: 3%;
     }
@@ -171,6 +171,15 @@ body{
         /*border-radius: 4px;*/
         cursor: pointer;
     }
+    .gif-gallery{
+        padding: 0% 0%;
+        img{
+            padding: 5px 0px;
+        }
+    }
+    .container-contents{
+        margin: 0px;
+    }
 }
 
 .trailer iframe{
@@ -188,7 +197,7 @@ body{
 .gif-gallery .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    /*padding: 0 4px;*/
 }
 
 /* Create two equal columns that sits next to each other */
