@@ -89,8 +89,8 @@ body{
 }
 
 .game-description{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     padding-bottom: 5%;
 }
 
@@ -147,13 +147,6 @@ body{
     display: none;
 }
 
-.gif-gallery{
-    padding: 3% 5%;
-    img{
-        padding: 3%;
-    }
-}
-
 @media screen and (max-width: 820px) {
     .steam-widget{
         display: none;
@@ -171,15 +164,6 @@ body{
         /*border-radius: 4px;*/
         cursor: pointer;
     }
-    .gif-gallery{
-        padding: 0% 0%;
-        img{
-            padding: 5px 0px;
-        }
-    }
-    .container-contents{
-        margin: 0px;
-    }
 }
 
 .trailer iframe{
@@ -193,11 +177,28 @@ body{
     border: none; /* Remove default border */
 }
 
+#socials {
+    padding: 5% 20%;
+}
+
+.button-row-page{
+    display: flex;
+    justify-content: center;
+    padding-top: 5%;
+}
+.social-button {
+    width: 100%;
+}
+
+.social-button a{
+    font-size:40px;
+}
+
 /*#region Gif Gallery*/
 .gif-gallery .row {
     display: flex;
     flex-wrap: wrap;
-    /*padding: 0 4px;*/
+    padding: 0 4px;
 }
 
 /* Create two equal columns that sits next to each other */
